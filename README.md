@@ -5,11 +5,24 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+Use `ruby v2.4.1`
 
 * System dependencies
 
-* Configuration
+## Configuration
+
+Run:
+
+`bundle install`
+
+`./bin/rails s`
+
+When doing development run this command in another terminal window:
+
+`./bin/webpack-dev-server`
+
+This builds the front end code and will be used by the Rails server. For production, it will be run once to compile the React code into javascript
+
 
 * Database creation
 
